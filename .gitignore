@@ -1,0 +1,12 @@
+# pychache folder
+__pycache__/
+*.pyc
+
+# log files
+*.log
+
+# result.txt
+result.txt
+
+# .env file
+.env
