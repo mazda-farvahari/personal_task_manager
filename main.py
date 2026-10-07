@@ -1,19 +1,10 @@
-
-tasks_list = []
-
-def show_task(tasks):
-    print("  ")
-    print("---Tasks---")
-    n = 1
-
-    for i in tasks:
-        print(f"    Task {n} : {i}")
-        n += 1
+from tasks import show_task
 
 name = input("Please enter your name: ")
 
 print(f"welcome {name}")
 
+tasks_list = []
 
 while True:
     enter_task_exit = input("Do you want to add a task? (yes/no) ")
