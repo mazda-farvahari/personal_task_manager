@@ -28,7 +28,7 @@ while True:
     if enter_task_exit == "yes":
         task_question = input("Enter your task: ")
         tasks_list.append(task_question)
-        task_priority = input("Enter yout task priority(low, medium, high): ")
+        task_priority = input("Enter your task priority(low, medium, high): ")
 
         print("Your task has been saved.")
 
@@ -43,4 +43,4 @@ while True:
 show_task(tasks_list, task_priority)
 
 with open("result.txt", "a") as file:
-    file.write(f"{name} - Tasks: {tasks_list}\n")
+    file.write(f"{name} - Tasks: {tasks_list} - priority : {task_priority}\n")
