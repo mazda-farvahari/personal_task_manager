@@ -28,6 +28,7 @@ A simple personal task manager built with Python
 ## Features
 - Taks System
   - Asks the player multiple question about their taks.
+  - Ask a question about your tasks's priority.
   - Shows tasks at the end.
 - Resulte storage
   - Saves program results in `results.txt`
@@ -150,7 +151,7 @@ Do you want to add a task? (yes/no) no
 - [x] add multiple tasks
 - [x] save results to a file
 - [x] add admin mode
-- [ ] add priotority for tasks
+- [x] add priotority for tasks
 - [ ] add a timer
 ## Contributing
 
